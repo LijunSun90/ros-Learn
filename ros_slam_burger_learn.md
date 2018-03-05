@@ -72,5 +72,26 @@ Turtlebot3 can be moved or stopped by LDS data. When the turtlebot3 moves, it st
 
 **[Remote PC]** Run the obstacle file.
 
-$ rosrun turtlebot3_example turtlebot3_obstacle.py
+   >$ rosrun turtlebot3_example turtlebot3_obstacle.py
 
+
+## Example 6: Point operation
+
+Turtlebot3 can be moved by 2D point(x,y) and z-angular. For example, if you insert (0.5, 0.3, 60), turtlebot3 moves to point (x = 0.5m, y = 0.3m) and then rotates 60 deg.
+
+**[Remote PC]** launch the pointop file.
+
+   >$ roslaunch turtlebot3_example turtlebot3_pointop_key.launch
+
+
+## Example 7: Patrol
+
+Turtlebot3 can be moved by custom routes. There are three routes(rectangle, triangle and circle). This example uses action topic. Action client translates patrol data(mode, area, count) to action server. And then action server translates cmd_vel to turtlebot3.
+
+**[Remote PC]** Run the patrol server file.
+
+   >$ rosrun turtlebot3_example turtlebot3_server.py
+   
+**[Remote PC]** Run the patrol client file.
+
+   >$ rosrun turtlebot3_example turtlebot3_client.py
