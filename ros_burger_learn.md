@@ -27,6 +27,9 @@ Reference: file:///home/lijunsun/Downloads/TurtleBot3.html
    >$ rosrun rviz rviz -d \`rospack find turtlebot3_description\`/rviz/model.rviz
    
    
+**Warning** : Make sure to run the above Bringup instruction before performing the following examples.   
+   
+   
 ## Example 2: Teleoperation by keyboard
 
 **[Remote PC]** Launch the file for simple teleoperation test.
