@@ -1,4 +1,4 @@
-# Learn ROS and SLAM through turtlebot 3 burger: Useful commands:
+# Learn ROS through turtlebot 3 burger: Useful commands:
 
 ## Example 1: Bringup
 
