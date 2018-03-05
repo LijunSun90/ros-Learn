@@ -11,7 +11,7 @@ Reference: file:///home/lijunsun/Downloads/TurtleBot3.html
 **[TurtleBot]** Bring up basic packages to start TurtleBot3 applications.
 
    >$ roslaunch turtlebot3_bringup turtlebot3_robot.launch
-
+   
    Tip : If you want to launch Lidar sensor and core separately, please use below commands.
 
    >$ roslaunch turtlebot3_bringup turtlebot3_lidar.launch
