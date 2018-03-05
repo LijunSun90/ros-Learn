@@ -17,7 +17,7 @@
 
 **[Remote PC]** Visualize the model in 3D with RViz.
 
-   >$ rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz
+   >$ rosrun rviz rviz -d \`rospack find turtlebot3_slam\`/rviz/turtlebot3_slam.rviz
 
 **[Remote PC]** Teleoperation with Keyboard
 
