@@ -6,7 +6,7 @@
 ## 1. TurtleBot3 Fake Node Implementation
 
 Install dependent packages for TurtleBot3 Simulation.
----
+
 
 Note : turtlebot3_simulation package requires TurtleBot3 package as a prerequisite.
 
@@ -18,7 +18,7 @@ Note : turtlebot3_simulation package requires TurtleBot3 package as a prerequisi
    
    
 TurtleBot3 fake node is a very simple simulation node that can be run without having an actual robot. You can even control the virtual TurtleBot3 in RViz with a teleop node.
----
+
 
    >$ export TURTLEBOT3_MODEL=burger
    
