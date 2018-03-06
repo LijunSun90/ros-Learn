@@ -2,7 +2,7 @@
 
 ## Example 1: Bringup
 
-Reference: [file:///home/lijunsun/Downloads/TurtleBot3.html](file:///home/lijunsun/Downloads/TurtleBot3.html)
+Reference: [http://emanual.robotis.com/docs/en/platform/turtlebot3/bringup/#bringup]
 
 **[Remote PC]** Run roscore.
 
