@@ -19,7 +19,7 @@ The Navigation locates TurtleBot3 to the calculated position in the map by combi
    
 **[Remote PC]** Launch the Rviz.
 
-   >$ rosrun rviz rviz -d \`rospack find turtlebot3_navigation\`/rviz/turtlebot3_nav.rviz
+   >$ rosrun rviz rviz -d \`rospack find turtlebot3_navigation\`/rviz/turtlebot3_nav.rviz
 
 **[Remote PC]** Before starting the navigation, RViz should be updated with initial location and pose of TurtleBot3. To upate the initial data, follow the instruction below.
 
