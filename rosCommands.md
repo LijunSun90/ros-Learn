@@ -1,6 +1,8 @@
 
 # Some useful ros commands:
 
+## Navigating the ROS Filesystem
+
 > rospack = ros + pack(age)
 ---
 
